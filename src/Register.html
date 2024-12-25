@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="/output.css">
+    <link rel="shortcut icon" href="fav_reg.png" type="image/x-icon">
     <title>Registration</title>
 </head>
 <body class=" bg-blue-500">
     <h1 class=" text-center text-2xl text-orange-900">Register here</h1>
+    <div class="form_el">
+    <form  action="">
+        <fieldset>
+           <legend align="center">Personal details</legend> 
+            <br>
+        <label for="Fullname">Enter your Name</label>
+        <input type="text" name="Fullname" id="Fullname">
+            <br>
+            <br>
+        <label for="Phone">Enter your Mobile Number</label>
+        <input type="tel" name="Phone" id="Phone" maxlength="10">
+    </fieldset>
+            <br>
+            <br>
+        
+    <fieldset>
+        <legend align="center">Email</legend>
+        <br>
+        <label for="Email">Enter your email</label>
+        <input type="email" name="Email" id="Email">
+            <br>
+            <br>
+        <label for="Password">Enter your password</label>
+        <input type="password" name="Password" id="Password">
+    </fieldset>
+            <br>
+            <br>
+        <label for="File">Upload your CV</label>
+        <input type="file" name="File" id="File">
+        <br>
+        <br>
+        <button type="submit" class=" bg-green-700 border-2 border-purple-600 rounded-xl pl-4 pr-4">Submit</button>
+    </form>
+</div>
     
 </body>
 </html>

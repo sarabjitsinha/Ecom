@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form_el{
+    height: 600px;
+    width: 550px;
+    justify-self: center;
+    position: relative;
+    background-color: orange;
+    padding: 20px;
+}
+
+label{
+    text-shadow: 1px 1px black;
+    display: inline-block;
+    width:200px;
+}
