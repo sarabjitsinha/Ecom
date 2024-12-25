@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+.menu {
+        display: none;
+}
+
+.archmenu ul li:hover .menu{
+        display: block;
+        position: absolute;
+        padding: 5px;
+        background-color: rgb(0,200,0);
+    }
